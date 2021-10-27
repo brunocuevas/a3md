@@ -1,0 +1,188 @@
+{
+    "_DESCRIPTION": "protomolecule density",
+    "_MAXFUNS": 4,
+    "_MODEL": {
+        "C": [
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "CR",
+                "_PARAMS": {
+                    "A": 128.049,
+                    "B": 11.85,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "CVR",
+                "_PARAMS": {
+                    "A": -2.535,
+                    "B": 3.508,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "VR",
+                "_PARAMS": {
+                    "A": 2.041,
+                    "B": 2.099,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "H": [
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "hCR",
+                "_PARAMS": {
+                    "A": 0.318309886,
+                    "B": 2.000,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "N": [
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "CR",
+                "_PARAMS": {
+                    "A": 207.763,
+                    "B": 13.835,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "CVR",
+                "_PARAMS": {
+                    "A": -5.366,
+                    "B": 4.656,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "VR",
+                "_PARAMS": {
+                    "A": 3.737,
+                    "B": 2.453,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "O": [
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "CR",
+                "_PARAMS": {
+                    "A": 316.284,
+                    "B": 15.835,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "CVR",
+                "_PARAMS": {
+                    "A": -9.789,
+                    "B": 6.439,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "VR",
+                "_PARAMS": {
+                    "A": 5.479,
+                    "B": 2.71,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "S": [
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "CR",
+                "_PARAMS": {
+                    "A": 2559.082,
+                    "B": 34.86945,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "CR",
+                "_PARAMS": {
+                    "A": 151.9583,
+                    "B": 5.780166,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "CVR",
+                "_PARAMS": {
+                    "A": -53.474,
+                    "B": 4.277687,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 1.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": true,
+                "_NAME": "VR",
+                "_PARAMS": {
+                    "A": 4.200515,
+                    "B": 2.071517,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ]
+    },
+    "_NAME": "protodensity",
+    "_NELEMENTS": 5,
+    "_VERSION": "1.0",
+    "_UNITS":"bohr"
+}

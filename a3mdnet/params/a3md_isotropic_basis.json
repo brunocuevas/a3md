@@ -1,0 +1,734 @@
+{
+    "_DESCRIPTION": "exponential-generated spherical basis set (8 functions)",
+    "_MAXFUNS": 8,
+    "_MODEL": {
+        "C": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS00-C",
+                "_PARAMS": {
+                    "A": 68.75493541569878,
+                    "B": 12.0,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS01-C",
+                "_PARAMS": {
+                    "A": 28.121896895548222,
+                    "B": 8.907616076973293,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS02-C",
+                "_PARAMS": {
+                    "A": 11.502317327801201,
+                    "B": 6.612135347896089,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS03-C",
+                "_PARAMS": {
+                    "A": 4.704636547130638,
+                    "B": 4.908196927336884,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS04-C",
+                "_PARAMS": {
+                    "A": 1.9242735537386162,
+                    "B": 3.643361154908078,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS05-C",
+                "_PARAMS": {
+                    "A": 0.7870594619846248,
+                    "B": 2.7044718664732645,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS06-C",
+                "_PARAMS": {
+                    "A": 0.32192023607869663,
+                    "B": 2.007533089793269,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS07-C",
+                "_PARAMS": {
+                    "A": 0.13167065946408515,
+                    "B": 1.4901945021415322,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "Cl": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS00-Cl",
+                "_PARAMS": {
+                    "A": 1942.7740066494111,
+                    "B": 36.55,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS01-Cl",
+                "_PARAMS": {
+                    "A": 475.7403066363004,
+                    "B": 22.866688164363154,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS02-Cl",
+                "_PARAMS": {
+                    "A": 116.49776998444479,
+                    "B": 14.306030851059539,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS03-Cl",
+                "_PARAMS": {
+                    "A": 28.527602605940356,
+                    "B": 8.950247505907997,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS04-Cl",
+                "_PARAMS": {
+                    "A": 6.985748401459705,
+                    "B": 5.599521715772019,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS05-Cl",
+                "_PARAMS": {
+                    "A": 1.7106478032028876,
+                    "B": 3.503215237869727,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS06-Cl",
+                "_PARAMS": {
+                    "A": 0.418897981781221,
+                    "B": 2.191708082544797,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS07-Cl",
+                "_PARAMS": {
+                    "A": 0.10257840264479529,
+                    "B": 1.3711930306666533,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "F": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS00-F",
+                "_PARAMS": {
+                    "A": 232.0479070279834,
+                    "B": 18.0,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS01-F",
+                "_PARAMS": {
+                    "A": 94.91140202247523,
+                    "B": 13.361424115459938,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS02-F",
+                "_PARAMS": {
+                    "A": 38.820320981329054,
+                    "B": 9.918203021844134,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS03-F",
+                "_PARAMS": {
+                    "A": 15.878148346565903,
+                    "B": 7.3622953910053255,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS04-F",
+                "_PARAMS": {
+                    "A": 6.49442324386783,
+                    "B": 5.465041732362117,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS05-F",
+                "_PARAMS": {
+                    "A": 2.6563256841981087,
+                    "B": 4.056707799709897,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS06-F",
+                "_PARAMS": {
+                    "A": 1.0864807967656014,
+                    "B": 3.0112996346899035,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS07-F",
+                "_PARAMS": {
+                    "A": 0.4443884756912875,
+                    "B": 2.2352917532122984,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "H": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS00-H",
+                "_PARAMS": {
+                    "A": 0.4532185684140301,
+                    "B": 2.25,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS01-H",
+                "_PARAMS": {
+                    "A": 0.3183098861837907,
+                    "B": 2.0,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS02-H",
+                "_PARAMS": {
+                    "A": 0.21324275578328164,
+                    "B": 1.75,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "N": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS00-N",
+                "_PARAMS": {
+                    "A": 109.1802909610402,
+                    "B": 14.0,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS01-N",
+                "_PARAMS": {
+                    "A": 44.6565307183937,
+                    "B": 10.392218756468841,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS02-N",
+                "_PARAMS": {
+                    "A": 18.265253904795422,
+                    "B": 7.71415790587877,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS03-N",
+                "_PARAMS": {
+                    "A": 7.470788591045412,
+                    "B": 5.726229748559698,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS04-N",
+                "_PARAMS": {
+                    "A": 3.0556751339460435,
+                    "B": 4.250588014059424,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS05-N",
+                "_PARAMS": {
+                    "A": 1.2498212752811406,
+                    "B": 3.1552171775521423,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS06-N",
+                "_PARAMS": {
+                    "A": 0.5111974119212634,
+                    "B": 2.3421219380921467,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS07-N",
+                "_PARAMS": {
+                    "A": 0.20908813053787598,
+                    "B": 1.7385602524984543,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "O": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS00-O",
+                "_PARAMS": {
+                    "A": 162.97466172610083,
+                    "B": 16.0,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS01-O",
+                "_PARAMS": {
+                    "A": 66.65931115981799,
+                    "B": 11.87682143596439,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS02-O",
+                "_PARAMS": {
+                    "A": 27.264752184417656,
+                    "B": 8.816180463861452,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS03-O",
+                "_PARAMS": {
+                    "A": 11.15173107468003,
+                    "B": 6.544262569782512,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS04-O",
+                "_PARAMS": {
+                    "A": 4.561241016269313,
+                    "B": 4.857814873210771,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS05-O",
+                "_PARAMS": {
+                    "A": 1.8656224284079999,
+                    "B": 3.6059624886310195,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS06-O",
+                "_PARAMS": {
+                    "A": 0.7630701892235772,
+                    "B": 2.676710786391025,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS07-O",
+                "_PARAMS": {
+                    "A": 0.3121082298407945,
+                    "B": 1.9869260028553763,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "P": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS00-P",
+                "_PARAMS": {
+                    "A": 1334.594396996085,
+                    "B": 32.25,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS01-P",
+                "_PARAMS": {
+                    "A": 326.8112222465935,
+                    "B": 20.17648955679102,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS02-P",
+                "_PARAMS": {
+                    "A": 80.02849047374332,
+                    "B": 12.62296839799371,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS03-P",
+                "_PARAMS": {
+                    "A": 19.597121676175185,
+                    "B": 7.897277211095291,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS04-P",
+                "_PARAMS": {
+                    "A": 4.798880695079686,
+                    "B": 4.940754455092957,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS05-P",
+                "_PARAMS": {
+                    "A": 1.1751346093648982,
+                    "B": 3.0910722687085825,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS06-P",
+                "_PARAMS": {
+                    "A": 0.28776321769013247,
+                    "B": 1.9338600728336444,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS07-P",
+                "_PARAMS": {
+                    "A": 0.07046653957382133,
+                    "B": 1.2098762035294002,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "S": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS00-S",
+                "_PARAMS": {
+                    "A": 1619.703303732137,
+                    "B": 34.4,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS01-S",
+                "_PARAMS": {
+                    "A": 396.6277826139398,
+                    "B": 21.521588860577086,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS02-S",
+                "_PARAMS": {
+                    "A": 97.12494725346747,
+                    "B": 13.464499624526624,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS03-S",
+                "_PARAMS": {
+                    "A": 23.783647521663276,
+                    "B": 8.423762358501644,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS04-S",
+                "_PARAMS": {
+                    "A": 5.82406380060634,
+                    "B": 5.270138085432488,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS05-S",
+                "_PARAMS": {
+                    "A": 1.426178180728481,
+                    "B": 3.2971437532891548,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS06-S",
+                "_PARAMS": {
+                    "A": 0.3492379673063059,
+                    "B": 2.0627840776892206,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "RS07-S",
+                "_PARAMS": {
+                    "A": 0.0855202803242584,
+                    "B": 1.2905346170980267,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ]
+    },
+    "_NAME": "expgen8",
+    "_NELEMENTS": 8,
+    "_UNITS": "bohr",
+    "_VERSION": "1.0"
+}

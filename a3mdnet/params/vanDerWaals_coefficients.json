@@ -1,0 +1,26 @@
+{
+  "_SOURCE":"10.1063/1.1779576, 10.1021/acs.jctc.6b00361 (hydrogen)",
+  "_DESCRIPTION": "values to compute the dispersion interaction coefficients",
+  "_VALUES":{
+    "C":{
+      "polarizability":12,
+      "c6":46.6,
+      "vdwr": 0.47
+    },
+    "O":{
+      "polarizability":5.4,
+      "c6":15.6,
+      "vdwr": 0.37
+    },
+    "N":{
+      "polarizability":7.4,
+      "c6":24.2,
+      "vdwr": 0.41
+    },
+    "H":{
+      "polarizability":4.5,
+      "c6":6.5,
+      "vdwr": 0.5
+    }
+  }
+}

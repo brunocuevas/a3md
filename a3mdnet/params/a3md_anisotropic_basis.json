@@ -1,0 +1,201 @@
+{
+    "_DESCRIPTION": "Anisotropic Model of electron density including only harmonic terms",
+    "_MAXFUNS": 3,
+    "_MODEL": {
+        "C": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT00",
+                "_PARAMS": {
+                    "A": 1.3691341618032795,
+                    "B": 2.0490000000000004,
+                    "P": 1
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT01",
+                "_PARAMS": {
+                    "A": 4.620827796086069,
+                    "B": 3.0735000000000006,
+                    "P": 1
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT02",
+                "_PARAMS": {
+                    "A": 15.595293811790482,
+                    "B": 4.610250000000001,
+                    "P": 1
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "H": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT00",
+                "_PARAMS": {
+                    "A": 0.1475142510823147,
+                    "B": 1.95,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT01",
+                "_PARAMS": {
+                    "A": 0.45318,
+                    "B": 2.25,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT02",
+                "_PARAMS": {
+                    "A": 0.58138,
+                    "B": 2.45,
+                    "P": 0
+                },
+                "_TYPE": "_SPHERIC"
+            }
+
+        ],
+        "N": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT00",
+                "_PARAMS": {
+                    "A": 2.760523553862176,
+                    "B": 2.403,
+                    "P": 1
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT01",
+                "_PARAMS": {
+                    "A": 9.316766994284842,
+                    "B": 3.6045,
+                    "P": 1
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT02",
+                "_PARAMS": {
+                    "A": 31.444088605711347,
+                    "B": 5.40675,
+                    "P": 1
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "O": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT00",
+                "_PARAMS": {
+                    "A": 4.4932056942106495,
+                    "B": 2.66,
+                    "P": 1
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT01",
+                "_PARAMS": {
+                    "A": 15.16456921796094,
+                    "B": 3.99,
+                    "P": 1
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT02",
+                "_PARAMS": {
+                    "A": 51.18042111061818,
+                    "B": 5.985,
+                    "P": 1
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ],
+        "S": [
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT00",
+                "_PARAMS": {
+                    "A": 1.9721665315829948,
+                    "B": 2.0215170000000002,
+                    "P": 2
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT01",
+                "_PARAMS": {
+                    "A": 6.656062044092607,
+                    "B": 3.0322755000000003,
+                    "P": 2
+                },
+                "_TYPE": "_SPHERIC"
+            },
+            {
+                "_COEFFICIENT": 0.0,
+                "_CONNECT": "_NONE",
+                "_FROZEN": false,
+                "_NAME": "XT02",
+                "_PARAMS": {
+                    "A": 22.464209398812546,
+                    "B": 4.54841325,
+                    "P": 2
+                },
+                "_TYPE": "_SPHERIC"
+            }
+        ]
+    },
+    "_NAME": "small-spherical-deformation-density-basis",
+    "_NELEMENTS": 5,
+    "_UNITS": "bohr",
+    "_VERSION": "1.1"
+}
