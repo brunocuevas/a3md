@@ -1,0 +1,68 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },{
+            "name": "genamd",
+            "type": "python",
+            "request": "launch",
+            "program": "${cwd}/test/gen_amd_test.py",
+            "console": "integratedTerminal",
+            "args": ["${cwd}/a3mdnet/params/a3md_isotropic_basis.json"]
+        },{
+            "name": "test - load data",
+            "type": "python",
+            "request": "launch",
+            "program": "${cwd}/test/data_loading_test.py",
+            "console": "integratedTerminal",
+            "args": ["/home/bcz/tutorial/wfn/sugbench.json"]
+        },{
+            "name": "test - density check",
+            "type": "python",
+            "request": "launch",
+            "program": "${cwd}/test/density_check.py",
+            "console": "integratedTerminal",
+            "args": []
+        },{
+            "name": "train",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/a3mdnet/protocols/train.py",
+            "console": "integratedTerminal",
+            "args": [
+                "declare-train-a3md",
+                "--model=tdnn",
+                "--convolutions=3",
+                "--epochs=1",
+                "--radial_resolution=15",
+                "--angular_grid=minimal",
+                "--device=cuda:0",
+                "tdnn3", "./training_data/gdb7.json"
+            ],
+            "cwd": "/home/bcz/tutorial/"
+        },{
+            "name": "utils - dxgrid",
+            "type": "python",
+            "request": "launch",
+            "program": "${cwd}/test/utils_dxgrid.py",
+            "console": "integratedTerminal",
+            "args": []
+        },{
+            "name": "utils - xyz file",
+            "type": "python",
+            "request": "launch",
+            "program": "${cwd}/test/utils_toxyz.py",
+            "console": "integratedTerminal",
+            "args": []
+        }
+
+    ]
+}

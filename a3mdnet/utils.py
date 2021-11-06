@@ -5,7 +5,11 @@ from a3mdnet.functions import alt_distance_vectors
 import torch
 from typing import List
 import numpy as np
+from pint import UnitRegistry
+import mendeleev
 
+
+ureg = UnitRegistry()
 
 def hirshfeld_weights(dv, atomic_numbers, density_model: GenAMD):
     z = map_an2labels(atomic_numbers=atomic_numbers)
@@ -29,6 +33,25 @@ def get_dft_protoenergy(model, dv, w, z, coords):
     vw = von_weizsacker_kinetic(p, g, w)
     ee = (-v * w * p).sum(1) / 2
     return nn + vne + tf + xc + vw + ee
+
+
+def to_xyz_file(atomic_numbers: torch.Tensor, coordinates: torch.Tensor):
+    for an, coords in zip(atomic_numbers.split(1, dim=0), coordinates.split(1, dim=0)):
+
+        # bohr -> angstrom
+        conv = (1 * ureg.bohr).to(ureg.angstrom).magnitude
+        an_filtered = an[an > 0]
+        coords_filtered = coords[an > 0] * conv 
+
+        file = []
+        file.append('{:d}\n'.format(len(an_filtered)))
+        for i in range(len(an_filtered)):
+            symbol = mendeleev.element(an_filtered[i].item()).symbol
+            file.append("{:2s} {:8.4f} {:8.4f} {:8.4f}".format(
+                symbol, coords_filtered[i, 0], coords_filtered[i, 1],
+                coords_filtered[i, 2]
+            ))
+        yield '\n'.join(file)
 
 
 class DxGrid:
