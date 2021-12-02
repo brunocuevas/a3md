@@ -1,7 +1,5 @@
 # A3MD
 
-** We are releasing the code along this week (first week of June)**
-
 MPNN + Analytic Density Model = Accurate electron densities
 
 ## Summary
@@ -19,7 +17,14 @@ Please, if you use this code, cite us as:
     Journal of Chemical Information and Modeling Article ASAP
     DOI: 10.1021/acs.jcim.1c00227
  
+
+## Installing
+
+The package can be built in place using setuptools.
+
+    python -m build
+    pip install dist/a3mdnet-0.0.1-py3-none-any.whl
+
 ## Contact
 
 Please, don't hesistate to contact us for any feedback: cuevaszuviri [at] wisc.edu
-
